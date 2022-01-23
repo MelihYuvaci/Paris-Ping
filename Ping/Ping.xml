@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ping</name>
+    </assembly>
+    <members>
+        <member name="M:Ping.Controller.ProductsController.GetProducts(System.Nullable{System.Int32},System.Int32,System.Int32)">
+            <summary>
+            Get All Products
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Ping.Controller.ProductsController.GetProductById(System.Int32)">
+            <summary>
+            Get Products By Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ping.Controller.ProductsController.UpdateProduct(System.Int32,Ping.Entities.Product)">
+            <summary>
+            Update the Products
+            </summary>
+            <param name="id"></param>
+            <param name="product"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ping.Controller.ProductsController.DeleteProduct(System.Int32)">
+            <summary>
+            Delete the Products
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ping.Controller.ProductsController.AddProduct(Ping.Entities.Product)">
+            <summary>
+            Create an Product
+            </summary>
+            <param name="product"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
